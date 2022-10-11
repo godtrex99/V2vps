@@ -8,23 +8,21 @@ yl="\033[0;1;33m"
 wh="\033[0m"
 echo -e "$y                   SYSTEM SETTING$wh"
 echo -e "$y-------------------------------------------------------------$wh"
+echo -e "$y        ❖ SMART LIFE VPS MANAGER     $wh"
+echo -e "$y        ❖ Script Modified By LAKMAL SANDARU     $wh"
+echo -e "$y-------------------------------------------------------------$wh"
 echo -e "$yy 1$y.  Add Or Change Subdomain Host For VPS"
 echo -e "$yy 2$y.  Change Port Of Some Service"
-echo -e "$yy 3$y.  Autobackup Data VPS"
-echo -e "$yy 4$y.  Backup Data VPS"
-echo -e "$yy 5$y.  Restore Data VPS"
-echo -e "$yy 6$y.  Webmin Menu"
-echo -e "$yy 7$y.  Limit Bandwith Speed Server"
-echo -e "$yy 8$y.  Check Usage of VPS Ram"
-echo -e "$yy 9$y.  Reboot VPS"
-echo -e "$yy 10$y. Speedtest VPS"
-echo -e "$yy 11$y. Displaying System Information"
-echo -e "$yy 12$y. Info Script Auto Install"
-echo -e "$yy 13$y. Menu"
-echo -e "$yy 14$y. Exit"
+echo -e "$yy 3$y.  Check Usage of VPS Ram"
+echo -e "$yy 4$y.  Reboot VPS"
+echo -e "$yy 5$y.  Speedtest VPS"
+echo -e "$yy 6$y.  Displaying System Information"
+echo -e "$yy 7$y.  Info Script Auto Install"
+echo -e "$yy 8$y.  Menu"
+echo -e "$yy 9$y.  Exit"
 echo -e "$y-------------------------------------------------------------$wh"
 echo -e ""
-read -p "Select From Options [ 1 - 60 ] : " menu
+read -p "Select From Options [ 1 - 9 ] : " menu
 echo -e ""
 case $menu in
 1)
@@ -34,40 +32,25 @@ addhost
 changeport
 ;;
 3)
-autobackup
-;;
-4)
-backup
-;;
-5)
-restore
-;;
-6)
-wbmn
-;;
-7)
-limitspeed
-;;
-8)
 ram
 ;;
-9)
+4)
 reboot
 ;;
-10)
+5)
 speedtest
 ;;
-11)
+6)
 info
 ;;
-12)
+7)
 about
 ;;
-13)
+8)
 clear
 menu
 ;;
-14)
+9)
 clear
 exit
 ;;
