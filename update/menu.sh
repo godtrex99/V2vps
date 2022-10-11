@@ -5,21 +5,17 @@ y="\033[0;1;37m"
 yy="\033[0;1;32m"
 yl="\033[0;1;33m"
 wh="\033[0m"
-echo -e "$y                  MENU UTAMA $wh"
+echo -e "$y                  MAIN MENU  $wh"
+echo -e "$y-------------------------------------------------$wh"
+echo -e "$y        SMART LIFE VPS MANAGER     $wh"
+echo -e "$y        Modified By LAKMAL SANDARU     $wh"
 echo -e "$y-------------------------------------------------$wh"
 echo -e "$yy 1$y.  SSH & OpenVPN MENU  $wh"
-echo -e "$yy 2$y.  ERROR$wh"
-echo -e "$yy 3$y.  ERROR$wh"
-echo -e "$yy 4$y.  ERROR$wh"
-echo -e "$yy 5$y.  ERROR$wh"
-echo -e "$yy 6$y.  ERROR$wh"
-echo -e "$yy 7$y.  ERROR$wh"
-echo -e "$yy 8$y.  VMESS MENU$wh"
-echo -e "$yy 9$y.  VLESS MENU$wh"
-echo -e "$yy 10$y. TROJAN GFW MENU$wh"
-echo -e "$yy 11$y. ERROR$wh"
-echo -e "$yy 12$y. Settings$wh"
-echo -e "$yy 13$y. Exit$wh"
+echo -e "$yy 2$y.  VMESS MENU$wh"
+echo -e "$yy 3$y.  VLESS MENU$wh"
+echo -e "$yy 4$y. TROJAN GFW MENU$wh"
+echo -e "$yy 5$y. Settings$wh"
+echo -e "$yy 6$y. Exit$wh"
 echo -e "$y-------------------------------------------------$wh"
 read -p "Select From Options [ 1 - 13 ] : " menu
 case $menu in
@@ -29,49 +25,21 @@ sshovpnmenu
 ;;
 2)
 clear
-l2tpmenu
+vmessmenu
 ;;
 3)
 clear
-pptpmenu
+vlessmenu
 ;;
 4)
 clear
-sstpmenu
+trmenu
 ;;
 5)
 clear
-wgmenu
-;;
-6)
-clear
-ssmenu
-;;
-7)
-clear
-ssrmenu
-;;
-8)
-clear
-vmessmenu
-;;
-9)
-clear
-vlessmenu
-;;
-10)
-clear
-trmenu
-;;
-11)
-clear
-trgomenu
-;;
-12)
-clear
 setmenu
 ;;
-13)
+6)
 clear
 exit
 ;;
