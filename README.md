@@ -7,33 +7,13 @@ rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ip
 ### Fitur Script
 • SSH & OpenVPN
 
-• SSH Websocket TLS & No TLS
-
-• OHP SSH & OHP Dropbear & OHP OpenVPN
+• SSH TLS & No TLS
 
 • XRAY VMESS 
 
 • XRAY VLESS
 
 • XRAY TROJAN
-
-• SHADOWSOCKS
-
-• SSR
-
-• PPTP VPN
-
-• L2TP VPN
-
-• SSTP VPN
-
-• WIREGUARD
-
-• TROJAN GO
-
-• Backup Data ALL Service
-
-• Restore Data ALL Service
 
 ### Os Supported
 
@@ -45,8 +25,6 @@ rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ip
 
 • OpenSSH                 : 443, 22
 
-• OpenVPN                 : TCP 1194, UDP 2200, SSL 990
-
 • Stunnel5                : 443, 445, 777
 
 • Dropbear                : 443, 109, 143
@@ -54,22 +32,6 @@ rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ip
 • Squid Proxy             : 3128, 8080
 
 • Badvpn                  : 7100, 7200, 7300
-
-• Nginx                   : 89
-
-• Wireguard               : 7070
-
-• L2TP/IPSEC VPN          : 1701
-
-• PPTP VPN                : 1732
-
-• SSTP VPN                : 444
-
-• Shadowsocks-R           : 1443-1543
-
-• SS-OBFS TLS             : 2443-2543
-
-• SS-OBFS HTTP            : 3443-3543
 
 • XRAYS Vmess TLS         : 8443
 
@@ -81,23 +43,9 @@ rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ip
 
 • XRAYS Trojan            : 2083
 
-• Websocket TLS           : 443
-
-• Websocket None TLS      : 8880
-
-• Websocket Ovpn          : 2086
-
-• OHP SSH                 : 8181
-
-• OHP Dropbear            : 8282
-
-• OHP OpenVPN             : 8383
-
-• Trojan Go               : 2087
-
  ### Server Information & Other Features
 
-• Timezone                : Asia/Colombo (GMT +5)
+• Timezone                : Asia/Colombo (GMT +05.30)
 
 • Fail2Ban                : [ON]
 
@@ -125,4 +73,4 @@ rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ip
 ------------
 **Telegram**
 ------------
-[Senovpn](https://t.me/senovpn)
+[SmartLife Team](https://t.me/SmartLifeTeam)
