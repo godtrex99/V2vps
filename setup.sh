@@ -19,18 +19,17 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-lakmalvpn="raw.githubusercontent.com/Slehibot/V2vps/main/ssh"
+lakmalvpn="raw.githubusercontent.com/godtrex99/V2vps/main/ssh"
 # Link Hosting Kalian Untuk Xray
-lakmalvpnnnnnn="raw.githubusercontent.com/Slehibot/V2vps/main/xray"
+lakmalvpnnnnnn="raw.githubusercontent.com/godtrex99/V2vps/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-lakmalvpnnnnnnn="raw.githubusercontent.com/Slehibot/V2vps/main/ipsec"
+lakmalvpnnnnnnn="raw.githubusercontent.com/godtrex99/V2vps/main/ipsec"
 # Link Hosting Kalian Untuk Ohp
-lakmalvpnnnnnnnnnn="raw.githubusercontent.com/Slehibot/V2vps/main/ohp"
+lakmalvpnnnnnnnnnn="raw.githubusercontent.com/godtrex99/V2vps/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$(wget -qO- ipinfo.io/ip);
 
 rm -f setup.sh
 clear
